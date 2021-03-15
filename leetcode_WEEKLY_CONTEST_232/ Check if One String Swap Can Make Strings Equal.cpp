@@ -35,3 +35,5 @@ public:
 
 // tc o(n)
 // sc o(n)
+
+// aa bb case
