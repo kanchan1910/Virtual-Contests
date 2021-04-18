@@ -45,8 +45,8 @@ int main()
         cin >> arr[i];
     }
     int left[n], right[n];
-    left[0] = right[0] = arr[0];
-    left[n - 1] = right[n - 1] = arr[n - 1];
+    left[0] = arr[0];
+    right[n - 1] = arr[n - 1];
     for(int i = 1; i < n - 1; i++)
     {
         left[i] = max(left[i - 1], arr[i - 1]);
@@ -65,3 +65,6 @@ int main()
     }
     cout << ans << endl;
 }
+// nice problem
+// tc o(n)
+// sc o(n)

@@ -100,3 +100,6 @@ int main()
     }
     cout << special_ele << endl;
 }
+// nice problem
+// tc o(n)
+// sc o(n)

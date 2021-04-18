@@ -68,3 +68,6 @@ int main()
     }
     cout << ans << endl;
 }
+// nice problem
+// tc o(n)
+// sc o(1)
