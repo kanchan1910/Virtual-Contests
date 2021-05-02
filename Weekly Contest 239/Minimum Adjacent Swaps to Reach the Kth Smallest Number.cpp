@@ -5,18 +5,18 @@ public:
         int i = 0, j = 0;
         int result = 0;
 
-        while (i < size) {
+        while (i < size)
+        {
             j = i;
             
-            while (s1[j] != s2[i]) {
+            while (s1[j] != s2[i])
+            {
                 j += 1;
             }
 
-            while (i < j) {
-                
-                char temp = s1[j];
-                s1[j] = s1[j - 1];
-                s1[j - 1] = temp;
+            while (i < j) 
+            {
+                swap(s1[j], s1[j - 1]);
                 j -= 1;
                 result += 1;
             }
