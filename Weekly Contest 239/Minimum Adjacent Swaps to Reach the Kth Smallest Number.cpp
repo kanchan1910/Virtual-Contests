@@ -1,5 +1,6 @@
 class Solution {
 public:
+// for minimum adjacent swaps
     int fun(string s1, string s2, int size)
     {
         int i = 0, j = 0;
