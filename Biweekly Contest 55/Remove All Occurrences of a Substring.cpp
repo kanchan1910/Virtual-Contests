@@ -26,7 +26,7 @@ public:
                     }
                     else
                     {
-                        tmp += ss.top();
+                        tmp = ss.top() + tmp;
                         ss.pop();
                     }
                 }
